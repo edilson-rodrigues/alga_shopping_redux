@@ -4,7 +4,7 @@ import {Provider} from "react-redux";
 
 import './index.css';
 import HomeView from './views/Home.view'
-import store from './Store/store'
+import store from './store/store'
 
 ReactDOM.render(
     <Provider store={store}>

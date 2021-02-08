@@ -1,9 +1,9 @@
 // reducer - return state
-import {CALC_SUBTRACT, CALC_SUM} from "../Actions/calculator.actions";
+import {CALC_SUBTRACT, CALC_SUM} from "../actions/calculator.actions";
 
 const initialState = 0;
 
-const reducer = (state = initialState, action) => {
+const CalculatorReducer = (state = initialState, action) => {
     switch (action.type) {
         case CALC_SUM:
             return action.payload[0] + action.payload[1];
@@ -14,4 +14,4 @@ const reducer = (state = initialState, action) => {
     }
 };
 
-export default reducer;
+export default CalculatorReducer;
