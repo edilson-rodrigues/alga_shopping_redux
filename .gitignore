@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.idea/runConfigurations/_template__of_JavascriptDebugType.xml
+.idea/runConfigurations/ReactJs.xml
+.vscode/launch.json
